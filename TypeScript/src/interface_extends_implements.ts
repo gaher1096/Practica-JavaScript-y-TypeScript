@@ -19,7 +19,7 @@ interface Person{
     name:string;
 }
 
-interface Employee extends Person{
+interface Employees extends Person{
     dept:string;
 }
 
@@ -27,7 +27,7 @@ interface Customer extends Person{
     country: string;
 }
 
-const empleado:Employee={
+const empleado:Employees={
     id : 1,
     name : "Daniel",
     dept : "Consulta Externa"
